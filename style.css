@@ -1,0 +1,252 @@
+#navbar {
+    
+    padding: 0;
+    width: 102%;
+    background-color: black;
+    margin-top: -10px;
+    margin-left:-8px;
+   
+}
+.image {
+    margin-left: 100px;
+    
+}
+   
+.image img {
+    width: 17%;
+    padding-top: 15px;
+}
+.nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+
+}
+.nav-content ul {
+    list-style: none;
+    margin-left: 34%;
+    margin-top: -25px;
+    
+}
+.nav-content ul li {
+    display: inline;
+    padding: 1.5rem;
+    
+}
+.nav-content ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 12px;
+}
+.nav-content ul li a:hover {
+    color: forestgreen;
+}
+#sign {
+    background-color: forestgreen;
+    border-radius: 10px;
+    padding: 0.5rem;
+    
+}
+#sign:hover {
+    background-color: white;
+    color: forestgreen;
+}
+#navbar a i {
+    font-size: 25px;
+    color: white;
+    color:white;
+    float: right;
+    margin: 3% 4%;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+#home {
+    padding: 0;
+    width: 102%;
+    background-image: linear-gradient(to bottom right,white,green,rgb(83, 80, 80));
+    margin-left:-8px;
+}
+
+
+.home-img img {
+   width: 20%;
+   margin: 8% 12% 0px 8%;
+}
+.home-content {
+    position: absolute;
+    right: 30px;
+    margin: -27% 14% 0px -15%;
+}
+.home-content h1 {
+    font-size: 70px;
+    font-family: 'Great Vibes', cursive;
+}
+.home-content span {
+   margin-left: 36%;
+   font-size: 50px;
+   margin-top: -12%;
+   position: absolute;
+}
+#explore {
+    margin-left: 32%;
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 22px;
+    padding: 0.6rem;
+    margin-top: -10px;
+    color: white;
+} 
+#explore:hover {
+    background-color: white;
+    color: forestgreen;
+}
+#about {
+    padding: 0;
+    width: 102%;
+    background-color: black;
+   margin-left:-8px;
+}
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    margin-top: 20px;
+    padding: 1.5rem;
+    text-align: center;
+    
+    
+}   
+.icon img {
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: lime;
+    
+}
+.icon h4 {
+    right: 3px;
+    font-size: 18px;
+    color: white;
+}
+.about-para {
+    position: relative;
+    text-align: center;
+    height: 180px;
+}
+.about-para p {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+#download {
+    padding: 0;
+    width: 102%;
+    background-image: linear-gradient(to bottom right,white,green,rgb(83, 80, 80));
+    margin-left:-8px;
+    
+}
+.play-icon {
+    display: flex;
+    justify-content: center;
+
+}
+.icon-2{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.bar {
+    width: 45%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    margin: 2px 27% 0px 27%;
+    
+}
+.icon-2 img {
+    width: 25%;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: black;
+   
+}
+.dwnld-img img {
+    width: 26%;
+    margin: 5% 14% 0px 8%;
+}
+.dwnld-content {
+    position: absolute;
+    right: 30px;
+    margin: -16% 1% 0px -15%;
+}
+.dwnld-content p {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+.dwnld-content a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: lime;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-top: 8px;
+}
+.dwnld-content a:hover {
+    background-color: white;
+    color: lime;
+}
+#footer {
+    padding: 0;
+    width: 102%;
+    background-color: black;
+    margin-left:-8px;
+}
+.footer-img {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-img div img {
+    width: 70%;
+}
+.footer-img div h4 {
+    text-transform: uppercase;
+    color: darkgrey;
+}
+.footer-img div ul {
+    list-style: none;
+} 
+.footer-img div ul li {
+    padding: 4px;
+    color: white;
+}
+.footer-img div ul li a i  {
+    font-size: 22px;
+}
+#fb {
+    color: darkblue;
+    
+}
+#insta {
+    color: crimson;
+}
+#twit {
+    color: deepskyblue;
+}
+    
